@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="main.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    
+    <title>Document</title>
+    <style>
+        header {
+            padding: 5px;
+            background-color: rgb(4, 4, 98);
+            text-align: center;
+        }
+        .text {
+            display: inline-block;
+            background-color: white;
+            color: black;
+            height: 70px;
+            width: 250px;
+        }
+        h1 {
+            height: 10px;
+        }    
+        li{
+            list-style-type: none;
+            display: inline;
+        }
+      nav{
+            display:flex;
+            justify-content: space-between;
+     }
+  button{
+    background-color: black;
+    color: white;
+    margin-left:-5px;
+    height:25px;
+  }
+  section{
+    border: 2px solid grey;
+  margin-top: 5px;
+  }
+  section p{
+    font-size: 19px;
+    font-weight: 500;
+  }
+  section h1{
+    height: 250px;
+  }
+  .section1 .image img{
+    margin-right: 55px;
+    float: left;
+  }
+  .section2 .image img{
+    margin-right: 55px;
+    float: left;
+  }
+  .section3 .image img{
+    margin-right: 55px;
+    float: left;
+  }
+  .sectionbtn{
+    background-color: red;
+    color: white;
+    height: 40px;
+  } 
+    </style>
+</head>
+<body>
+    <header>
+        <div class="head">
+            <div class="text">
+                <h1>NEWS BLOG</h1>
+                <H3>WORLDWIDE NEWS</H3>
+            </div>
+        </div>
+    </header>
+    <nav>      
+            <li><div id="bar" class="navtext">
+                SELECT CATEGORY<br>
+                <select name="category" id="cat" >
+                     <option value="All">All</option>
+                     <option value="abc"></option>
+                </select>
+            </div></li>
+            <li><div id="midtext" class="navtext">
+                <h1>ALL NEWS</h1>
+            </div></li>
+            <li> <div id="searchbar" class="navtext">
+                SUBSCRIBE<br>                  
+                  <input type="text" placeholder="email address" name="add" height="50px" >
+                  <button type="submit">Subscribe</button>
+              </li>
+    </nav>
+    <section class="section1">
+        <h1>
+            <div class="image"><img src="nature1.jpeg" alt="" height="255px" width="355px"></div>
+            <div class="para1">
+            <p>Posted on 29 june,2019// Category One</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptas laborum soluta, deleniti quis officia! Quia eos, sunt labore iste qui deserunt ab impedit quis laborum doloribus animi sequi laudantium recusandae doloremque delectus quidem vitae porro omnis nisi itaque incidunt accusantium deleniti ad. Alias similique facilis quo libero itaque non cum dolorem culpa ipsum! Corrupti accusamus impedit quaerat quis. Ducimus?</p>
+            <button type="submit" class="sectionbtn">Continue Reading</button>
+        </div>
+    </h1>
+    </section>
+    <section>
+        <div class="section2">
+            <h1>
+                <div class="image"><img src="nature1.jpeg" alt="" height="255px" width="355px"></div>
+                <div class="para1">
+                <p>Posted on 29 june,2019//Category One</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptas laborum soluta, deleniti quis officia! Quia eos, sunt labore iste qui deserunt ab impedit quis laborum doloribus animi sequi laudantium recusandae doloremque delectus quidem vitae porro omnis nisi itaque incidunt accusantium deleniti ad. Alias similique facilis quo libero itaque non cum dolorem culpa ipsum! Corrupti accusamus impedit quaerat quis. Ducimus?</p>
+                <button type="submit" class="sectionbtn">Continue Reading</button>
+            </div>
+        </h1>
+        </div>
+    </section>
+    <section>
+        <div class="section3">
+            <h1>
+                <div class="image"><img src="nature1.jpeg" alt="" height="255px" width="355px"></div>
+                <div class="para1">
+                <p>Posted on 29 june,2019//Category One</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptas laborum soluta, deleniti quis officia! Quia eos, sunt labore iste qui deserunt ab impedit quis laborum doloribus animi sequi laudantium recusandae doloremque delectus quidem vitae porro omnis nisi itaque incidunt accusantium deleniti ad. Alias similique facilis quo libero itaque non cum dolorem culpa ipsum! Corrupti accusamus impedit quaerat quis. Ducimus?</p>
+                <button type="submit" class="sectionbtn">Continue Reading</button>
+            </div>
+        </h1>
+        </div>
+    </section>
+</body>
+</html>
